@@ -15,7 +15,7 @@ body {
     color: white;
 }
 .about-me {
-    margin-left: 700px;
+    margin-left: 500px;
     
     width: 300px;
     color: white
@@ -50,6 +50,10 @@ body {
     opacity: 1;
     /* border: 2px solid black; */
 }
+.icon-size-height:hover {
+    height: 110px;
+    
+    }
 .icon-size-width {
     width: 100px;
     height: auto;
@@ -93,6 +97,11 @@ body {
     /* border: 1px solid black; */
     cursor: pointer;
 }
+.project-1:hover {
+    box-shadow: 10px 10px 5px #888888;
+    height: 385px;
+    width: 385px;
+}
 .project-2 {
     background-color: gray;
     background-image: url('./restore.png');
@@ -102,9 +111,15 @@ body {
     background-size: cover;
     height: 380px;
     width: 380px;
+    
     /* border: 1px solid black; */
     cursor: pointer;
 }
+.project-2:hover {
+    box-shadow: 10px 10px 5px #888888;
+    height: 385px;
+    width: 385px;
+    }
 .project-3 {
     background-color: gray;
     background-image: url('');
@@ -215,13 +230,13 @@ body {
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: flex-start;
-	align-content: stretch;
+	align-content: space-between;
     background-color:  rgb(29, 29, 29);
     color: white;
 }
 
 .my-work-title{
-margin-left: 800px;
+margin-left: 780px;
 font-size: 40px;
 -webkit-text-stroke-width: .4px;
 -webkit-text-stroke-color: rgb(133, 133, 133);
