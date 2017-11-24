@@ -235,7 +235,14 @@ body {
     color: white;
 }
 .about-me-children{
-
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+    width: 100vw;
+    height: 500px;
     
 }
 
@@ -248,12 +255,15 @@ body {
 }
 
 .about-me-title{
-    margin-left: 730px;
     font-size: 40px;
     -webkit-text-stroke-width: .4px;
     -webkit-text-stroke-color: rgb(133, 133, 133);
     color: rgb(255, 255, 255);
         
+}
+.me-parent{
+    width: 1400px;
+    margin-right: 500px;
 }
 .me{
     width: 18%;
