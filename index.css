@@ -274,10 +274,10 @@ body {
     width: 18%;
 }
 .my-work-title-parent{
-    display: flex;
-	flex-direction: column;
+	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: center;
+	justify-content: center;
+	align-items: baseline;
 	align-content: center;
 }
