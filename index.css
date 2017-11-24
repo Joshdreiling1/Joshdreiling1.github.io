@@ -247,11 +247,16 @@ body {
 }
 
 .my-work-title{
-    margin-left: 780px;
     font-size: 40px;
     -webkit-text-stroke-width: .4px;
     -webkit-text-stroke-color: rgb(133, 133, 133);
     color: rgb(255, 255, 255);
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
 }
 
 .about-me-title{
@@ -267,4 +272,12 @@ body {
 }
 .me{
     width: 18%;
+}
+.my-work-title-parent{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
 }
